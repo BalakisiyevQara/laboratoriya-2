@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(pexels-pixabay-268533.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.container {
+    margin-top: 5%;
+    width: 600px;
+    height: auto;
+    position: absolute;
+    background: transparent;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+
+}
+.sign-up{
+    float: left;
+    width: 100%;
+    
+}
+.sign-up button {
+    padding: 12px 121px;
+    background-color: rgb(245, 180, 1);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.log-in{
+    float: right;
+    width: 100%;
+}
+
+.log-in button {
+    padding: 12px 125px;
+    color: #fff;
+    background-color: #666666;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.sign-up-in {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 16px 0; */
+    
+
+}
+.sign-up-in a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.sign-in__text {
+    padding: 20px 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 32px;
+}
+
+.sign-in {
+    background-color: black;
+    padding: 0 20px;
+    background: transparent;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 95%;
+    
+}
+.name input {
+
+    padding: 10px;
+    font-size:16px ;
+    background-color: #666666;
+    color: #fff;
+    background: transparent;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    
+}
+.form-box input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 95%;
+    background-color: #666666;
+    background: transparent;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+}
+.btn {
+    width: 95%;
+    padding: 10px;
+    margin: 16px;
+    color: rgb(245, 180, 1);
+    text-transform: uppercase;
+    border: 3px solid rgb(245, 180, 1);
+    background: transparent;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    
+}
+
+
+
+
